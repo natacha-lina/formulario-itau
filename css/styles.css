@@ -121,17 +121,6 @@ input[type="button"] {
   width: auto;
 }
 
-.error-validation {
-  color: #ff1a1a;
-  position: absolute;
-  top: 57px;
-  font-size: 12px;
-}
-
-.template {
-  display: none;
-}
-
 #estado, #sexo, #escola {
   margin-top: 10px;
   margin-bottom: 40px;
