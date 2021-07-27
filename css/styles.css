@@ -1,0 +1,158 @@
+/* geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  border: none;
+}
+
+input, label {
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+a {
+  color: #e60040;
+}
+
+body {
+  padding-top: 5vh;
+  background-image: url('../img/itau.jpg');
+  background-size: cover;
+}
+
+/* form */
+#container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 25px;
+  height: 980px;
+}
+
+#container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 45%;
+  position: relative;
+}
+
+.address-box {
+  flex: 80%;
+  position: relative;
+}
+
+.number-box {
+  flex: 15%;
+  position: relative;
+}
+
+.email-box {
+  flex: 50%;
+  position: relative;
+}
+
+input[type="email"] {
+  height: 44px;
+}
+
+.date-box {
+  flex: 10%;
+  position: relative;
+  height: -30%;
+}
+
+.spacing {
+  margin-right: 2%;
+}
+
+label {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+input {
+  border-bottom: 2px solid #837575;
+  padding: 10px;
+  font-size: .9rem;
+  margin-bottom: 40px;
+  border-color:black;
+}
+
+
+
+input[type="button"] {
+  background-color: orange;
+  color: #FFF;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#agreement {
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+#agreement, #agreement-label {
+  display: inline-block;
+  width: auto;
+}
+
+.error-validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: 12px;
+}
+
+.template {
+  display: none;
+}
+
+#estado, #sexo, #escola {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.footer{
+  background:orange;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 180px;
+  padding-top: 30px;
+}
+
+.logo{
+   max-height: 100px;
+   padding-left: 50px;
+   padding-bottom: 20px;
+}
+
+.h5{
+    font-size: 15px;
+    color: white;
+}
